@@ -3,20 +3,33 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./style.css" />
 		<title>Document</title>
+		<link rel="stylesheet" href="styles.css" />
 	</head>
 	<body>
-		<div className="container">
-			<div className="container-item">
-				<h1>My first postcard</h1>
-				<img src="https://th.bing.com/th/id/R.9ac279f97fd30bde7b19709196d0a23c?rik=i8QyDp0qxL7YQQ&pid=ImgRaw&r=0" alt="" />
+		<div class="postcard">
+			<div class="postcard-header">
+				<h1>My Postcard</h1>
+				<img
+					src="https://raw.githubusercontent.com/breatheco-de/exercise-postcard/e63a7916530cc850bd92aa1c2e19191837fb5c80/.learn/assets/4geeks.png"
+				/>
 			</div>
-			<div className="container-item">
-				<p>
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere eius ratione vel culpa veritatis fuga expedita quas iure id modi.
-					Officiis autem accusamus illum voluptate voluptatum soluta porro qui at.
-				</p>
+			<div class="postcard-body">
+				<div class="body-left">
+					<h4>Look how awesome! This is a postcard that I created using HTML5 and CSS3 during my 4Geeks Academy Course!</h4>
+					<br />
+					<br />
+					<br />
+					<h4>This is so cool,can't wait to start doing more stuff</h4>
+				</div>
+				<div class="body-right">
+					<input type="text" placeholder="Your name" />
+					<input type=" text" placeholder="Your Email" />
+					<input type="text" placeholder="Comments" />
+				</div>
+			</div>
+			<div class="postcard-footer">
+				<button>send my postcard</button>
 			</div>
 		</div>
 	</body>
